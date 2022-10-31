@@ -18,7 +18,7 @@ a:visited
 
 a:hover
 {
-    color:rgb(150, 19, 155);
+    color:#364c88;
 }
 
 .nav-customizado
@@ -41,7 +41,6 @@ a:hover
 }
 
 .anuncio p{
-
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     color: white;
@@ -95,3 +94,49 @@ a:hover
 
 
 /*Fin de estilos para Header*/
+
+
+/*Estilos para el Footer*/
+
+.footer-customizado
+{
+   background-color: rgb(100, 99, 99);   
+}
+
+.footer-customizado p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: white;
+    padding-top: 5px;
+
+}
+
+
+.footer-izquierdo
+{
+    display: flex;
+    justify-content: center;   
+}
+
+
+.footer-derecho
+{
+    display: flex;
+    justify-content: center;   
+}
+
+
+.footer-derecho li
+{
+    display: inline;
+    padding-right: 10px;
+}
+
+.footer-derecho img
+{
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+/*Fin de estilos para el footer*/
