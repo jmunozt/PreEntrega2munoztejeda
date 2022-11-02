@@ -54,13 +54,66 @@
         </nav>
 
         <div class="anuncio2" >        
-            <h2>Somos concesionario autorizado de las marcas Kia y Nissan</h2>
+            <h2>Contáctenos, déjenos un mensaje</h2>
         </div>
     </head>
     <!--Fin de la sección Head-->
     
     <!--Inicio de la sección Contacto-->
     <section id="contacto">
+
+      <div>
+        <img src="../images/contactanos.png" alt="Automotive Contacto" class="img-fondo-titulo" >
+      </div>
+
+      <div class= "container formulario">
+        <div class= "row">
+
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="nombres" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="nombres">
+              </div>
+              <div class="col-md-6">
+                <label for="Apellidos" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="Apellidos">
+              </div>
+              <div class="col-12">
+                <label for="poneremail" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="poneremail">
+              </div>
+              <div class="col-md-4">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="telefono">
+              </div>
+              <div class="col-md-8">
+                <label for="modelo" class="form-label">Modelo</label>
+                <select id="modelo" class="form-select">
+                  <option selected>Escoger Modelo...</option>
+                  <option value="N1">Nissan Frontier</option>
+                  <option value="N2">Nissan Kicks</option>
+                  <option value="N3">Nissan Versa</option>
+                  <option value="N4">Nissan Sentra</option>
+                  <option value="N5">Nissan Xtrail</option>
+                  <option value="K1">Kia Cerato</option>
+                  <option value="K2">Kia Picanto</option>
+                  <option value="K3">Kia Rio</option>
+                  <option value="K4">Kia Seltos</option>
+                  <option value="K5">Kia Sorento</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <textarea class="form-control" name="textarea" rows="10" cols="50">Escriba su Mensaje aquí</textarea>
+              </div>
+
+              <div class="col-12 boton-formulario">
+                <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+              </div>
+            </form>
+          
+          </div>
+        </div>
 
     </section>
     <!--Fin de la sección Contacto-->

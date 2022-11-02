@@ -308,3 +308,22 @@
 }
 
 /*Fin de estilos para el página Sucursales*/
+
+
+/*Inicio de estilos para página contacto*/
+
+.formulario
+{
+    padding: 20px;
+
+}
+
+.boton-formulario
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Fin de estilos para el página contacto*/
