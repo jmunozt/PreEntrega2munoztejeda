@@ -34,6 +34,25 @@ a:hover
 }
 
 
+.texto-normal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(83, 82, 82);   
+}
+
+
+.texto-subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 800;
+    color:rgb(11, 78, 180); 
+}
+
+
+.img-fondo-titulo
+{
+   width: 100%; 
+}
 
 /* Fin de estilos generales*/
 
@@ -170,6 +189,11 @@ a:hover
     font-weight: 600;
 }
 
+#generalidades li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
 
 .gen-texto1
 {
@@ -233,5 +257,34 @@ a:hover
     color:white;
 }
 
-
 /*Fin de estilos para el página Index*/
+
+
+
+/*Inicio de estilos para página Nosotros*/
+
+.nosotros-izquierda
+{
+    padding: 20px;
+    text-align: justify;
+    background-color: #eff2ff;
+}
+
+
+.nosotros-izquierda:hover
+{
+    transition: all 2s;
+    background-color: rgb(11, 78, 180);
+    background-color: #adbff0;
+    border-color: rgb(104, 163, 250);
+}
+
+
+
+.nosotros-derecha
+{
+    padding: 20px;
+    text-align: justify;
+}
+
+/*Fin de estilos para el página Nosotros*/
